@@ -1,0 +1,27 @@
+{
+  "name": "langgraph-demo",
+  "version": "1.0.0",
+  "description": "Demo project for LangGraph.js",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "demo1": "node demo1-basic-agent.js",
+    "demo2": "node demo2-sequential-agents.js",
+    "demo3": "node demo3-supervisor.js",
+    "demo4": "node demo4-swarm.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.3.66",
+    "@langchain/langgraph": "^0.4.2",
+    "@langchain/langgraph-supervisor": "^0.0.17",
+    "@langchain/langgraph-swarm": "^0.0.5",
+    "@langchain/openai": "^0.6.3",
+    "dotenv": "^16.6.1",
+    "langchain": "^0.3.30",
+    "zod": "^3.25.76"
+  }
+}
